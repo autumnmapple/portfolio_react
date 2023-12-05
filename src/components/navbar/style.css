@@ -1,0 +1,54 @@
+.nav{
+    background-color:var(--dark-bg);
+    color: var(--header-text);
+    padding: 20px 0;/*отсуп сверху и снизу*/
+    border: 1px solid var(--dark-border);
+    letter-spacing: normal;
+}
+.nav-row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;/*отступ между колонками для мобилки*/
+    row-gap: 20px;/*если элементs не помещаются, то один будет под с расстоянием 20px*/
+    flex-wrap: wrap;
+}
+.logo{
+    color:var(--header-text);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: auto; /*автоматически в конец контейнера*/
+}
+.logo strong{
+    font-weight: 700;
+}
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;/*элементы, которые не помещаются переносятся на новую строку*/
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-list__link{
+    color:var(--header-text);
+    transition: opacity 0.2s ease-in;
+}
+.nav-list__link--active{ /*родительский элемент для палочки снизу(задаем relative, так как псевдоэлементы без него не воркают)*/
+    position: relative;
+}
+.nav-list__link:hover{
+    opacity: 0.8;
+}
+.nav-list__link--active::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: var(--accent);
+}

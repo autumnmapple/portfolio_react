@@ -1,0 +1,39 @@
+.header{
+    padding: 40px 0;
+    background-color: var(--dark-bg);
+    background-image: url('./../../img/header-bg.png');
+    background-repeat: no-repeat;
+    block-size: auto;
+    background-position: center;
+    color: var(--header-text);
+    min-height: 695px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header__wrapper{
+    padding: 0 15px;
+    max-width: 660px; /*если добавляем paddind => к width прибавляется сумма*/
+}
+.header__title{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;/*высота строки 140 => 1.4*/
+}
+.header__title strong{
+    font-weight: 700;
+}
+.header__title em{
+    font-style: normal;
+    color: var(--accent);
+}
+.header__text{
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.3; /*высота 24 из фигмы делим на 18px*/
+}
+.header__text p+p{/*отступ для последующий тегов p*/
+    margin-top: 0.5em;
+}
