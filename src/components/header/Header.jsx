@@ -4,7 +4,7 @@ const Header = () => {
         <header className="header">
             <div className="header__wrapper">
                 <h1 className="header__title">
-                    <strong>ку, мя зовут <em>Autumn_maple</em></strong><br/>
+                    <strong>hi, my name <em>Autumn_maple</em></strong><br/>
                     a frontend developer
                 </h1>
                 <div className="header__text">

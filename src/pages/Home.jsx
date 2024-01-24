@@ -1,4 +1,4 @@
-import Header from './../components/header/Header';
+import Header from '../components/header/Header';
 const Home = () => {
     return ( 
         <div>
@@ -9,7 +9,7 @@ const Home = () => {
                     <ul className="content-list">
                         <li className="content-list__item">
                             <h2 className="title-2">Frontend</h2>
-                            <p>JavaScript, ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents</p>
+                            <p>JavaScript, ReactJS, HTML, CSS, BootStrap, Redux Toolkit</p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Backend</h2>

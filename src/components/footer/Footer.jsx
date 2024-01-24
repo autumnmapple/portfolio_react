@@ -26,9 +26,6 @@ const Footer = () => {
                             <a href="#!"><img src={vk} alt="link"/></a>
                         </li>
                     </ul>
-                    <div className="copyright">
-                        <p>© 2023 frontend-dev.com</p>
-                    </div>  
                 </div>
             </div>
     </footer>
