@@ -3,7 +3,7 @@ import sun from './Sun.svg'
 import moon from './Moon.svg'
 import './style.css'
 const BtnDarkMode = () => {
-    const [darkMode, setDarkMode]=useState('light'); //на входе стартовое значение-light, после получаем массив [состояние(изначально light и вызывая функцию можем менять его), функция]
+    const [darkMode, setDarkMode]=useState('light'); 
     const btnRef=useRef(null);
     
     useEffect(()=>{

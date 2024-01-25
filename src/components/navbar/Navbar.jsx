@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import BtnDarkMode from '../btndarkMode/BtnDarkMode'
 import './style.css'
 
-//sfc+tab с помощью плагина делают шаблон
+//sfc+tab 
 const Navbar=()=> {
     const activeLink="nav-list__link nav-list__link--active";
     const normalLink="nav-list__link";

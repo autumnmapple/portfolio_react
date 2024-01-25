@@ -14,7 +14,7 @@ const Contacts = () => {
                             <p><a href="tel:+79130077931">номер</a></p>
                         </li>
                         <li className="content-list__item">
-                            <h2 className="title-2">Email</h2>
+                            <h2 className="title-2">email</h2>
                             <p><a href="mailto:lepeshkinaka@mer.ci.nsu.ru">почта</a></p>
                         </li>
                     </ul>

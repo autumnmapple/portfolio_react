@@ -15,7 +15,7 @@ const Project = () => {
                         <p>{project.skills}</p>
                     </div>
                     {project.gitHub &&(
-                        <BtnGitHub link="https://github.com/autumnmapple"/> 
+                        <BtnGitHub link="https://github.com/autumnmapple/pizza-2.0" /> 
                     )}                  
                 </div>      
             </div>

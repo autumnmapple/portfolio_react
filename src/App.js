@@ -9,8 +9,6 @@ import Contacts from './pages/Contacts';
 import ScrollToTop from './utils/ScrollToTop';
 function App() {
   return ( 
-    // пушто навигация и футер совпадают, а всё остальное зависит от страницы
-    //<ScrollToTop /> чтобы оказаться в начале страницы при переходе на нее с другой
     <div className="App">   
       <Router>
         <ScrollToTop />
